@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline and Block Elements</title>
+
+    <style>
+        /* Block Elements */
+        .block-box {
+            background-color: lightblue;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        /* Inline Elements */
+        .inline-box {
+            background-color: lightpink;
+            padding: 8px;
+        }
+
+        /* Inline-block */
+        .inline-block-box {
+            display: inline-block;
+            background-color: lightgreen;
+            width: 150px;
+            padding: 20px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Inline & Block Elements in HTML</h1>
+
+    <h2>1. Block Elements</h2>
+
+    <div class="block-box">
+        This is a Block Element (div).
+    </div>
+
+    <p class="block-box">
+        This is another Block Element (paragraph).
+    </p>
+
+    <h3 class="block-box">
+        This is also a Block Element (heading).
+    </h3>
+
+
+    <h2>2. Inline Elements</h2>
+
+    <p>
+        HTML is
+        <span class="inline-box">easy</span>
+        and
+        <span class="inline-box">interesting</span>.
+    </p>
+
+    <p>
+        Visit
+        <a href="https://www.google.com">Google</a>
+        to search something.
+    </p>
+
+
+    <h2>3. Inline-Block Elements</h2>
+
+    <div class="inline-block-box">
+        Box 1
+    </div>
+
+    <div class="inline-block-box">
+        Box 2
+    </div>
+
+    <div class="inline-block-box">
+        Box 3
+    </div>
+
+
+    <h2>What I Learned</h2>
+
+    <ul>
+        <li>Block elements start on a new line.</li>
+        <li>Inline elements stay in the same line.</li>
+        <li>div is a block element.</li>
+        <li>span is an inline element.</li>
+        <li>display: inline-block combines both behaviors.</li>
+    </ul>
+
+</body>
+</html>
